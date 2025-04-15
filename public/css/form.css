@@ -1,0 +1,217 @@
+input.easyui-validatebox.validatebox-text,
+select,
+input[type=password],
+input[type=text]{
+	height: 34px;
+	line-height: 34px;
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	border:1px solid rgba(17,76,116,0.2);
+	
+	padding-left:10px;
+	padding-right:10px;
+}
+@media screen and (max-width:767px) {
+	input.easyui-validatebox.validatebox-text,
+	select,
+	input[type=password],
+	input[type=text]{
+		*max-width:100% !important;
+		*border:2px solid red !important;
+	}
+}
+
+/** TOMBOL **/
+input#rst_form[type=reset]{
+	height: 34px;
+	line-height: 34px;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	font-size:12px;
+}
+input[type=submit]{
+	height: 34px;
+	line-height: 34px;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	font-size:12px;
+}
+button[type=submit]{
+	height: 34px;
+	line-height: 34px;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	font-size:12px;
+	padding-top:0px;
+	padding-bottom:0px;
+	
+	text-transform:uppercase;
+}
+input[type=submit][name=reqSelanjutnya]{
+	*border:2px solid red;
+	margin-top:-24px;
+	*float:right;
+}
+
+input[type=button]{
+	height: 34px;
+	line-height: 34px;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	font-size:12px;
+	
+	padding:0 10px;
+}
+input[type=button]:disabled,
+input[type=submit]:disabled{
+	background: #DDDDDD;
+	color: rgba(255,255,255,0.8);
+}
+
+/****/
+span.combo.datebox{
+	*height:24px;
+	*line-height:24px;
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	border:1px solid rgba(17,76,116,0.2);
+	
+	*padding-left:10px;
+	*padding-right:10px;
+}
+span.combo.datebox > input{
+	*border:none;
+	
+	padding-left:10px;
+	padding-right:10px;
+	
+	*height:20px;
+	*line-height:20px;
+	
+	*background:pink;
+	
+	*margin-top:0px !important;
+	
+	font-size:14px;
+}
+span.combo.datebox > span{
+	
+}
+span.combo.datebox > span > span.combo-arrow{
+	
+}
+
+/****/
+span.combo{
+	height: 34px !important;
+	line-height: 34px !important;
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	border:1px solid rgba(17,76,116,0.2);
+	
+	*padding-left:10px;
+	*padding-right:10px;
+}
+@media screen and (max-width:767px) {
+	span.combo{
+		*border: 2px solid blue !important;
+		width: auto !important;
+	}
+}
+span.combo > input{
+	*border:none;
+	
+	*padding-left:10px;
+	*padding-right:10px;
+	
+	padding: 0px 10px !important;
+	
+	height: 34px !important;
+	line-height: 34px !important;
+	
+	*background:pink;
+	
+	*margin-top:0px !important;
+	
+	font-size:14px !important;
+	
+	-webkit-border-radius: 4px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-radius: 4px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 0px;
+	border-radius: 4px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	
+}
+span.combo > span{
+	
+}
+span.combo > span > span.combo-arrow{
+	
+}
+
+/****/
+@media screen and (max-width:767px) {
+	#pendaftaran table input[type=text]{
+		width: auto !important;
+	}
+	#pendaftaran table input.easyui-validatebox{
+		width: auto !important;
+	}
+}
+#pendaftaran table span.combo{
+	*width: auto !important;
+}
+
+/****/
+.easyui-nama-instansi ~ span.combo{
+	*border: 2px solid cyan !important;
+	width: 500px !important;
+}
+.easyui-nama-instansi ~ span.combo > input.combo-text{
+	width: calc(100% - 18px) !important;
+}
+
+/****/
+.easyui-jurusan ~ span.combo{
+	*border: 2px solid cyan !important;
+	width: 500px !important;
+}
+.easyui-jurusan ~ span.combo > input.combo-text{
+	width: calc(100% - 18px) !important;
+}
+
+
+

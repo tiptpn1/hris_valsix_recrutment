@@ -1,0 +1,41 @@
+
+/*@font-face {
+	font-family: 'Montserrat Regular';
+	src: url('../fonts/Montserrat/montserrat-regular-webfont.eot');
+	src: url('../fonts/Montserrat/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Montserrat/montserrat-regular-webfont.woff') format('woff'),
+	url('../fonts/Montserrat/montserrat-regular-webfont.ttf') format('truetype'),
+	url('../fonts/Montserrat/montserrat-regular-webfont.svg#Montserrat Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat Light';
+	src: url('../fonts/Montserrat/montserrat-light-webfont.eot');
+	src: url('../fonts/Montserrat/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Montserrat/montserrat-light-webfont.woff') format('woff'),
+	url('../fonts/Montserrat/montserrat-light-webfont.ttf') format('truetype'),
+	url('../fonts/Montserrat/montserrat-light-webfont.svg#Montserrat Light') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+*/
+
+@font-face {
+    font-family: 'IvyEpic Regular';
+    src: url('../fonts/IvyEpic/IvyEpic Regular.otf');
+}
+@font-face {
+    font-family: 'IvyEpic Bold';
+    src: url('../fonts/IvyEpic/IvyEpic Bold.otf');
+}
+@font-face {
+    font-family: 'IvyEpic Semi Bold';
+    src: url('../fonts/IvyEpic/IvyEpic Semi Bold.otf');
+}
+
+@font-face {
+    font-family: 'Grenadine MVB Bold';
+    src: url('../fonts/Grenadine/Grenadine MVB Bold.otf');
+}

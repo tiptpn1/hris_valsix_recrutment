@@ -1,0 +1,1 @@
+2023-02-27 12:18:40: imagepng(http://localhost/bimart/public/storage/uploads/qrtes.png): Failed to open stream: HTTP wrapper does not support writeable connections

@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+<!--<script type="text/javascript" src="../jquery.qrcode.min.js"></script> -->
+<script type="text/javascript" src="libraries/jquery-qrcode-master/src/jquery.qrcode.js"></script>
+<script type="text/javascript" src="libraries/jquery-qrcode-master/src/qrcode.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+	<div class="row">
+    	<div class="col-md-8">
+			<div class="area-email-lolos-tahap">
+            1. Bahwa si A lolos tahap ini, harap datang di seleksi tahap berikutnya
+            <br>
+            <p>Render in canvas</p>
+            <div id="qrcodeCanvas"></div>
+        
+        </div>
+        
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+
+<script>
+	//jQuery('#qrcode').qrcode("this plugin is great");
+	jQuery('#qrcodeTable').qrcode({
+		render	: "table",
+		text	: "http://jetienne.com"
+	});	
+	jQuery('#qrcodeCanvas').qrcode({
+		text	: "http://jetienne.com"
+	});	
+</script>
+
+</html>

@@ -1,0 +1,100 @@
+/***********************************************************************************************************************
+DOCUMENT: style/format.css
+DEVELOPED BY: Ryan Stemkoski
+COMPANY: Zipline Interactive
+EMAIL: ryan@gozipline.com
+PHONE: 509-321-2849
+DATE: 2/26/2009
+DESCRIPTION: This document contains the structural formatting files for the accordion style menu.
+************************************************************************************************************************/
+#wrapper-accordion-menu {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:left;
+	
+	/*height: -moz-calc(100% - 170px);
+    height: -webkit-calc(100% - 170px);
+    height: -o-calc(100% - 170px);
+    height: calc(100% - 170px);*/
+	
+	text-transform:uppercase;
+	}
+
+.accordionButton {	
+	width: 100%;
+	*padding-left:20px;
+	*padding-right:20px;
+	*height:39px;
+	*line-height:39px;
+	float: left;
+	*background: #7ba4db;
+	background:#1561ae;
+	color:#FFF;
+	font-size:12px;
+	border-bottom: 1px solid #004287;
+	cursor: pointer;
+	
+	padding: 10px 10px;
+	}
+.accordionButton.link{
+	padding: 0 0;
+}
+.accordionButton a{	
+	padding: 10px 10px;
+	color:#FFF !important;
+}
+.accordionButton img{	
+	vertical-align:middle;
+	margin-right:5px;
+}
+.accordionContent {	
+	width: 100%;
+	padding:0px 0px;
+	float: left;
+	background: #f7f7f7;
+	display: none;
+	*border-top:1px solid #f8f9fa;
+	
+	/*min-height:calc(100% - 470px);*/
+	
+	/*height: -moz-calc(100% - 300px);
+    height: -webkit-calc(100% - 300px);
+    height: -o-calc(100% - 300px);
+    height: calc(100% - 300px);*/
+	
+	overflow:auto;
+	}
+.accordion-item{
+	*height:30px;
+	*line-height:30px;
+	border-bottom:1px solid #004287;
+}
+.accordion-item a{
+	
+	padding: 10px 10px;
+	color:#1561ae !important;
+	text-decoration:none;
+	display:block;
+	font-size:11px !important;
+}
+.accordion-item a:hover{
+	color:#FFF !important;
+	text-decoration:none;
+}
+.accordion-item a:before{
+	content: url(../../../images/icon-caret.png);
+	margin-right: 3px;
+}
+
+@media (max-width:767px) {
+	.accordionButton {	
+		padding-left:10px;
+		padding-right:10px;
+	}
+	
+	.accordion-item a{
+		padding:8px 10px;
+	}
+
+}

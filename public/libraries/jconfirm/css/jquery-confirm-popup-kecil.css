@@ -1,0 +1,8 @@
+.jconfirm-box-container{
+	width: calc(100% - 230px) !important;
+	margin-left: 0px !important;
+}
+
+.jconfirm{
+	z-index: 1 !important;
+}

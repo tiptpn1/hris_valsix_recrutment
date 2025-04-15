@@ -1,0 +1,32 @@
+{
+  "name": "suggestion-box",
+  "version": "v1.1.1",
+  "description": "Suggestion box for search",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.4.2",
+    "jasmine": "^2.3.2",
+    "karma": "^0.13.15",
+    "karma-detect-browsers": "^2.0.2",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-ie-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.6",
+    "karma-opera-launcher": "^0.3.0",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-safari-launcher": "^0.1.1",
+    "phantomjs": "^1.9.18"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "Craig Humphreys",
+  "license": "MIT"
+}

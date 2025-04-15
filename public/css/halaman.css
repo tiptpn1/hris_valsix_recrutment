@@ -1,0 +1,40 @@
+.paging_nav{}
+
+.pagesLL{
+	display:block;
+	width:100%;
+	text-align:center;
+	margin-top:18px;
+}
+
+span.nextprev{
+	background:#bfbfbf;
+	color: rgba(255,255,255,0.5);
+	
+	padding:5px 12px;
+	
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+span.current{
+	background:#91bf58;
+	color:#FFF;
+	padding:5px 12px;
+
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+.pagesLL-margin a{
+	*background:#00aeef;
+	border:1px solid #114c74;
+	color:#114c74;
+	
+	padding:5px 10px;
+	
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+

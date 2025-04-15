@@ -1,0 +1,169 @@
+@font-face {
+	font-family: 'Open SansRegular';
+	src: url('../font/OpenSans/OpenSans-Regular-webfont.eot');
+	src: url('../font/OpenSans/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../font/OpenSans/OpenSans-Regular-webfont.woff') format('woff'),
+	url('../font/OpenSans/OpenSans-Regular-webfont.ttf') format('truetype'),
+	url('../font/OpenSans/OpenSans-Regular-webfont.svg#Open SansRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'HelveticaNeueUltraLight';
+	src: url('../font/HelveticaNeue/HelveticaNeue-UltraLight.eot');
+	src: url('../font/HelveticaNeue/HelveticaNeue-UltraLight.woff') format('woff'), url('../font/HelveticaNeue/HelveticaNeue-UltraLight.ttf') format('truetype');
+}
+
+
+/** ACCORDION MENU **/
+.accordionButton {
+	background: #005575 !important;
+}
+.accordion-item{
+	border-bottom: 1px solid #005575 !important;
+}
+.accordion-item a.menu-rkm-sidebar{
+	color:#005575 !important;
+}
+
+/** FIXED HEADER TABLE MASTER **/
+.fancyTable thead tr th,
+.fancyTable thead tr td,
+.fancyTable tfoot tr th, 
+.fancyTable tfoot tr td {
+	/* appearance */
+	background:#ffb664 !important;
+	
+}
+
+/** DATATABLE **/
+.table > thead > tr > th{
+	*background:#db8c34 !important;
+}
+table.display tr.even.row_selected td {
+	background:#005575 !important;
+	color: #FFFFFF;
+}
+table.display tr.odd.row_selected td {
+	background:#005575 !important;
+	color: #FFFFFF;
+}
+table.display tr td.group{
+	background:#8F5C22 !important;
+	color:#f9f9f9 !important;
+	*border:5px solid cyan !important;
+	*padding-left:-20px !important;
+}
+.dataTables_scrollHeadInner{
+	background: #91bf58;
+}
+
+/** PAGINATION **/
+div#example_paginate.dataTables_paginate.fg-buttonset.ui-buttonset.fg-buttonset-multi.ui-buttonset-multi.paging_full_numbers a{
+	*background:#db8c34;
+}
+
+
+
+
+/****/
+#parameter-tambahan{
+	background:#ededed !important;
+}
+
+
+/** ADMIN CSS **/
+/*.judul-halaman{
+	*background:#db8c34 !important;
+}
+*/
+/** GAYA CSS **/
+#judul-popup{
+	
+	background: #91bf58 !important;
+	
+}
+#judul-popup .sub-judul{
+	background-color:transparent;
+	width:100%;
+	padding:0px 0px;
+}
+#judul-popup .sub-judul:nth-child(2){
+
+	background-color:transparent;
+	padding-left:0px;
+	padding-right:0px;
+	width:100%;
+}
+
+
+/****/
+div.modal-header{
+	*background:url(../images/bg-modal-header-resiko.png) left no-repeat;
+	*background-size:100% !important;
+}
+h4.modal-title{
+	*background:rgba(255,255,255,0.8);
+	width:calc(100% - 27px);
+}
+
+/****/
+#popup-tabel2 table{
+	
+}
+#popup-tabel2 table thead th{
+	background:#c87d28 !important;
+	color:#FFF !important;
+	border-right:1px solid #be731f !important;
+}
+
+/****/
+.notifikasi-resiko{
+	display:inline-block;
+	width:50%;
+	background:rgba(255,255,255,0.5);
+	margin-top:20px;
+	margin-left:10px;
+	
+	border:1px solid #db8c34;
+	padding:15px;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.notifikasi-resiko .judul{
+	background:#db8c34;
+	color:#FFF;
+	padding:8px 10px;
+	text-transform:uppercase;
+}
+.notifikasi-resiko .judul span{
+	background:#ffb664;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	display:inline-block;
+	
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	
+	float:right;
+}
+.notifikasi-resiko ul{
+	list-style-position:inside;
+}
+.notifikasi-resiko ul li{
+	border-bottom:1px solid #e4cfb8;
+	padding:8px 10px;
+}
+
+
+
+
+
+
